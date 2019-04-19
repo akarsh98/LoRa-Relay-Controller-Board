@@ -3,14 +3,14 @@
 ![alt text](https://github.com/akarsh98/LoRa-Relay-Controller-Board/blob/master/screenshots/fpcb.JPG?raw=true)
 ###                                              FRONT SIDE IMAGE OF THE PCB
 
-This PCB is a sinle channel gateway of LoRa, You can use this PCB as a node as well.
+This PCB is a relay controller board with LoRa, You can use this PCB mostly to control appliances like garage doors etc.
 The Pcb uses:
-1) ESP8266 as the microcontroller
-2) Ra-02 LoRa module.
+1) ESP32 as the microcontroller
+2) RYLR896 LoRa module.
 3) OLED SSD13086 0.96' display
 4) Other basic components.
 
-There is also an easy to program header under the OLED display to flash the device by connecting FTDI chip.
+There are 3 relays on board connected to pin 25/26/27 which can be customised using the selector jumpers under the ESP32 board.
 
 You must check out [JLCPCB](https://jlcpcb.com/m) for ordering PCBs online for cheap!
 
